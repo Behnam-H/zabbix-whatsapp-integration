@@ -1,0 +1,8 @@
+Need to change:
+    extract GroupID by name.
+    stop showing VENOM welcome banner.
+        https://orkestral.github.io/venom/pages/Getting%20Started/creating-client.html#passing-options-on-create
+    consider sending to given number
+
+Problems:
+    Disabling welcome or spins causes forgeting tokens and passing token directory does not help.
