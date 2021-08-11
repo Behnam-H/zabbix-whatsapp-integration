@@ -4,6 +4,7 @@ SERVER=localhost
 TO=$1
 SUBJECT=$2
 MESSAGE=$3
+PORT=3000
 
 generate_post_data()
 {
@@ -18,4 +19,4 @@ EOF
 curl -i \
 -H "Accept: application/json" \
 -H "Content-Type:application/json" \
--X POST --data "$(generate_post_data)" "http://$SERVER:3000/" 1> /dev/null
+-X POST --data "$(generate_post_data)" "http://$SERVER:$PORT/" 1> /dev/null
